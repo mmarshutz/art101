@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
-
-	<!-- Use UTF character set, a good idea with any webpage -->
-  	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
-	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+    <title>Lab 2 - HTML & CSS Starter</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
+<nav>
+    <section class="nav-bar">
+        <div>
+            <ul class="button">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="lab.html">Lab</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+        </div>
+    </section>
+</nav>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>Lab X - Subject/Topic</h1>
-			<div class="minor-section">
-					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
-			</div>
+    <main id="content">
+        <section>
+            <h1>Ahoy, World.</h1>
+                <h2>Introductions</h2>
+                <div class="minor-section">
+                    <h3>Capt'n Marshutz</h3>
+                     <p>Ahoy mateys, I be Manuel Marshutz, sailin' to UCSC as a junior buccaneer! 
+                         I've hoisted me flag with Art as me major, and be settin' course to declare 
+                        Technology & Information Management as me second major. Afore this voyage, 
+                        I plundered an HTML course at San Mateo Community College, where I learned 
+                        the ropes o' HTML and CSS styling. But I be admitin', I be a greenhorn when 
+                        it comes to the functionin' aspect o' web development, so this here javascript 
+                        be a whole new treasure chest for me to explore.
 
-			<div class="minor-section">
-					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
+                      Anyway, I be sharin' the deck with three cats that I may upload and showcase, 
+                        I just wrapped up a Pirates of the Caribbean marathon (skippin' the last one, 
+                       as I heard it be a treasure not worth findin'), and I spend me time on an immense 
+                       hunt in Tarkov. Arrr! 
+<!--The writing for this paragraph prior to using CHATGPT to "translate as a pirate" was original. With my partner's permission, I will also translate theirs...-->
+                      </p>
+                  </div>
 
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
-			</div>
+            <div class="minor-section">
+                <h3>First Mate Hernandez</h3>
+                <p>Avast, me hearties! I be Celeste Hernandez, a fresh-faced first mate aboard the 
+                    good ship UCSC. I be flyin' the flag o' Art as me major, with a touch o' learnin' 
+                    in education on the side. Me compass points toward the horizon where I aim to be 
+                    a fearsome high school art teacher, with a wee bit o' an art business on the side. 
+                    I be lookin' to sell me own art pieces, inspired by the tales from books and animated 
+                    series, to all ye fine folks out there.
 
-			<div class="minor-section">
-					<h2>Results</h2>
-					<div id="output"></div>
-			</div>
-		</section>
-		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
-		</nav>
-	</main>
+                    When I'm not chartin' courses for me future, ye'll find me honin' me skills in drawin',
+                    both with quill and parchment or the magic o' digital arts. I be a lover o' stories, 
+                    with me nose buried in tomes, and me heart yearnin' for stuffed animals to add to me 
+                    collection.
+                    
+                    One o' the tales close to me heart be the Dreamland Billionaire series by Laren Asher,
+                    and the ACOTAR series by Sarah J. Mass be a treasure I hold dear. Me experience with 
+                    codin' be as scarce as a mermaid's tears, havin' dabbled in them blocky codes back in 
+                    me days as a wee 8th grader. But fear not, for I be settin' me sights on Art 101 and 
+                    aimin' to pass with flyin' colors to earn me needed credits.
+                    
+                    Fair winds and following seas to ye all!</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
