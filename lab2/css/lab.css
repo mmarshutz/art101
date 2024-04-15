@@ -1,23 +1,46 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+body {
+  background-color: #1c8bc1;
+}
+
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #ddd417;
+    background-color: #5e2a0e;
+    color: white;
+  }
+
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+    color: white;
+  }
+  
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #ddd417;
+    background-color: #760a0a;
   }
 
   .nav-bar {
     margin: 0px;
     padding: 0px;
-    background-color: #84B59F;
+    background-color: #760a0a;
   }
 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  a {
+    color: white;
   }
   /* ul CSS reference: https://www.w3schools.com/css/css_navbar.asp which removes the bullet points from <ul> tag */
 
@@ -29,14 +52,14 @@
   display: block;
   padding: 20px 40px;
   text-decoration: none;
-  background-color: #84B59F;
-  color: #000000;
+  background-color: #760a0a;
+  color: white;
   border-radius: 5px;
   transition: background-color 0.3s ease;
   }
 
   .button-list li a:hover {
-    background-color: #719c89;
+    background-color: #760a0a;
   }
 
   .active {
