@@ -1,38 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>MyName's Homepage</title>
-
-	<!-- Use UTF character set, a good idea with any webpage -->
-	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--Template created by Manuel S Marshutz & inspired by Wes Modes-->
+    <title>ART 101 - Marshutz, Manuel</title>
 </head>
-<body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
-	<main id="content">
-		<section>
-			<h1>Manuel's Homepage</h1>
-			<div class="minor-section">
-					<!-- Note that all filenames use lowercase and no spaces -->
-					<img class="cat-photo" src="./img/cute-grey-kitten.jpg">
-					<h2>About Me</h2>
-					<p>Tell us about yourself. Add photos. Customize this. Go crazy.</p>
-			</div>
-
-		</section>
-		<nav id="links">
-			<!-- Put links to labs here. -->
+<!--Navigation bar inspired by Medium article (https://charlesfreeborn.medium.com/how-to-build-a-responsive-nav-using-css-flexbox-3511cd936af9) -->
+<div class="container">
+	<div class="navbar">
+		<nav>
+       		 <ul>
+           		 <li><a href="index.html">Home</a></li>
+           		 <li><a href="slot.html">Slot</a></li>
+				 <li><a href="slot2.html">Slot</a></li>
+				 <li><a href="labs.html">Labs</a></li>
+       		 </ul>
 		</nav>
-	</main>
+	</div>
+</div>
+<body>
+    <main id="content">
+        <div class="flex-container">
+			<img src="img/utah.jpeg" alt="marshutz_portrait" class="portrait" style="width: 500px;">
+                 <section>
+                     <div class="minor-section">
+                        <p>
+						   <h1>Manuel S Marshutz</h1>
+                           <i>Student</i></br>
+                            BA, Arts & Technology & Information Management</br>
+                            University of Santa Cruz</br>
+						<hr>
+						</p>
+						<!--information class will need to be adjusted based on content size-->
+						<p class="information">
+                            <b>Manuel S Marshutz</b> is currently enrolled at University of Santa Cruz as an Art major and considering
+                            a major/minor in Technology & Information Management. In regards to a career, he's employed by Geek Squad as an
+                            Advanced Repair Agent repairing software and hardware for various machines.
+                        </p>
+                     </div>
+				 </section>
+		</div>
+    </main>
+	<article>
+		<div class="subject-container">
+			<div class="subject-section">
+				<p>
+					Hobbies.
+				</p>
+			</div>
+		</div>
+	</article>
+	<article>
+		<div class="row">
+			<div class="column">
+				<img src="img/glacier.jpeg" alt="Alaska Glacier" style="width: 100%;">
+			</div>
+			<div class="column">
+				<img src="img/beaver.jpeg" alt="Beaver Dam Alaska" style="width: 100%;">
+			</div>
+			<div class="column">
+				<img src="img/wagon.jpeg" alt="Wagon Alaska" style="width: 100%;">
+			</div>
+		</div>
+	</article>
+	<article>
+		<div class="flex-container">
+			<div class="minor-section">
+				<p>
+					In Progress...
+				</p>
+			</div>
+		</div>
+	</article>
 </body>
 </html>

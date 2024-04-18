@@ -1,0 +1,121 @@
+/* Margin & Padding reset */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #1A4645;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar CSS, Navigation bar inspired by Medium article (https://charlesfreeborn.medium.com/how-to-build-a-responsive-nav-using-css-flexbox-3511cd936af9) */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+/* Navigation bar container CSS; justify content (a flexbox property that aligns items) */
+.container .navbar {
+    justify-content: space-between;
+}
+
+/* Navigation bar background and font CSS styles */
+.container {
+    background-color: #F58800;
+    font-size: 20px;
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.container .navbar ul li {
+    padding: 15px;
+    margin: 0 10px;
+}
+
+/* anchor tag will not have underlines with text-decoration:none; */
+.navbar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+}
+
+.navbar a:hover {
+    color: #1A4645;
+}
+
+/* --SECTIONS-- */
+/* With some help from chatGPT, I was able to reformat the minor-sections to be to the right of the image using flex boxes */
+.minor-section {
+    flex: 1;
+    margin: 10px;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    background-color: #266867;
+}
+
+.minor-section a {
+    text-decoration: none;
+    color: white;
+}
+
+.subject-section {
+    width: 80%;
+}
+
+.subject-section p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* --CONTAINERS-- */
+.subject-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F58800;
+}
+
+/* .flex-container aligned to the top with flex-start */
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.portrait {
+    margin-right: 1px;
+}
+
+/* added tag so that the minor-section size matched the image size */
+.information {
+    padding-bottom: 440px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;    
+}
