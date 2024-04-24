@@ -1,0 +1,41 @@
+// my notes turned into a javascript file... //
+
+There are three different data types
+Strings, Booleans, integers and Floats
+
+Composite Data types: Arrays & Objects
+Special Data Types: 
+
+"Strings" - Any text that is wrapped by quotes.
+    Examples: "Hello World!" "A block of text..." "4,5"
+
+Numbers (Integers or flotaing point numbers)
+There are not quotes...
+    Example: 5, 3450.0, -0.000056789
+
+Booleans (True/False Values)
+These are special words and not capitalized
+    Example: true, false
+boolans are typically used to check if something exist or to compare...
+dogs = 1 (assigns a variable)
+dogs == 1 (check to see if dogs is 1, to ask a question)
+true (we get a return telling us dogs is 1)
+
+variable: pocket
+reference: acknowleding it is in pocket
+return: value coming back to be used
+
+When you add a "string" to a math problem, it will combine the number as part
+of the "string"
+    Example: "5" + 3 = "53"
+             "45" - 1 = "44" ! wut. unless you subtract?
+
+var myNum = 10;
+
+"var or let" used to declare a new variable
+"myNum" variable name
+"10" right-side expression whose value is set to variable
+
+const name ="wes";
+let thingThatChanges ="7"
+

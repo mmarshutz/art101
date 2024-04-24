@@ -1,0 +1,21 @@
+Task 1 (mentioned in lab.js):
+// Feeding a Cat
+// 1. Select a can of high quality sustenace.
+// 2. Grab plate/bowl to place food
+// 3. Fend off all/any cats attempting to snatch a bite before they are served
+// 4. Mix with any garnish or dry food (if applicable)
+// 5. Serve food to feline creature...
+
+Task 2: Connect 4
+Creating a Connect 4 Game:
+1. Print an empty grid that's 6 by 7
+2. Prompt team (color) choice: Team Red or Team Yellow
+3. Accept user input
+4. Validate user input
+5. Evaluate possible moves
+6. Toggle team(s)
+7. Accept user unput
+8. Validate user input
+9. Evaluate possible moves
+10. Test win condition when 4 consecutive gridspaces have been filled by team/player.
+

@@ -1,21 +1,33 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 4 Javascript File
+// An implementation of the game
+// Author: Manuel S Marshutz <mmarshut@ucsc.edu>
+// Date: 04/23/2024
 
-// Constants
+// Feeding a Cat
+// 1. Select a can of high quality sustenace.
+// 2. Grab plate/bowl to place food
+// 3. Fend off all/any cats attempting to snatch a bite before they are served
+// 4. Mix with any garnish or dry food (if applicable)
+// 5. Serve food to feline creature...
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+// Print array
+  // Prompt team (color) choice: Team Red or Team Yellow
+    // Accept user(s) input
+    // Validate user(s) input
+      // Assign user to team of choice
+  // Prompt move: loop collumn selection (1-6)
+    // Accept user input
+      // Print O
+        // Drop checker
+    // Validate user input
+      // Test win condition
+    // Evaluate possible moves
+// Toggle switch turns
+  // Prompt move: loop collumn selection (1-6)
+    // Accept user input
+      // Print O
+        // Drop checker
+    // Validate user input
+      // Test win condition
+    // Evaluate possible moves
+// Test win condition when 4 consecutive (horizontal, vertical, or diagonal) gridspaces have been filled by team/player.
