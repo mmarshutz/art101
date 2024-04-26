@@ -1,21 +1,38 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 5 - Data Types & Variables
+// Author: Manuel Marshutz <mmarshut@ucsc.edu>
+// Date: 04/25/2024
 
-// Constants
+// define variables
+make = "Hyundai";
+model = "Veloster";
+color = "Red";
+year = 2012;
 
-// Functions
+catname = "Puma";
+catcolor = "Black";
+catage = "2022";
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+secondcat = "Haku";
+secondcatcolor = "Black";
+secondcatage = "2022";
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// calculate
+age = 2024 - year;
+old = 2024 - catage;
+secondold = 2024 - secondcatage;
 
-// let's get this party started
-main();
+//output
+
+document.writeln("Make: " + make + "</br>");
+document.writeln("Model: " + model + "</br>");
+document.writeln("Color: " + color + "</br>");
+document.writeln("Age: " + age + "</br>");
+document.writeln("_" + "</br>");
+document.writeln("</br>");
+document.writeln("<b>" + "Cat Name: " + catname + "</br>");
+document.writeln("Cat Color: " + catcolor + "</br>");
+document.writeln("Cat Age: " + old + "</br>");
+document.writeln("</br>");
+document.writeln("Cat Name: " + secondcat + "</br>");
+document.writeln("Cat Color: " + secondcatcolor + "</br>");
+document.writeln("Cat Age: " + secondold + "</br>");

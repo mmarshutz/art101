@@ -39,3 +39,52 @@ var myNum = 10;
 const name ="wes";
 let thingThatChanges ="7"
 
+shopList = ["string","string"]; (this creates an array/list)
+
+shopList(array).push("string"); (this adds a variable to the array)
+
+console.log(shopList[0]); (this references a particular index within an array)
+
+shopList[variable] = "new variable"; (replaces a variable within the array with a new variable)
+
+shopList.pop() (this just selects a random variable within an array)
+
+JS Objects:
+
+const cat = {};
+cat.name = "Tiger";
+cat.color = "orange";
+cat.size = "small";
+cat.says = function...
+cat.purr();
+
+cat = KEY
+value = ARRAY (composite data type)
+
+// Creating an Object starts with a blank one; {};
+// The following are attributes: cat.name = ""; cat.color = ""; etc.
+
+Creating an Object (object definitions are surrouned by {}) all at once:
+
+const cat = {
+    name: 'Tiger',
+    color: 'orange',
+    size: 'small',
+};
+
+Reference the elements of the object by entering NAME.
+
+character.pets.dog (.pathway)
+
+function kittyTalk() {
+    console.log("meow");
+}
+
+var myMainRide = {
+    make: "Hyundai",
+    model: "Veloster",
+    color: "Red",
+    year: 2012,
+    age
+
+}
