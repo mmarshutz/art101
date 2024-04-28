@@ -1,9 +1,83 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+.flex-container {
+  display: flex;
+  background-color: rgb(234, 234, 234);
+}
+
+.flex-container div {
+  padding: 10px;
+  border: 1px #ccc solid;
+}
+
+.flex-section-1 {
+  flex: 1;
+}
+
+.flex-section-2 {
+  flex: 1;
+}
+
+.flex-section-3 {
+  flex: 1;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-container div {
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.image-box {
+  flex: 2;
+}
+
+.image-box-2 {
+  flex: 1;
+}
+
+.image-box-3 {
+  flex: 1;
+}
+
+/* navigation bar */
+
+.navbar ul {
+  display: flex;
+}
+
+.nav-container .navbar {
+  justify-content: space-between;
+}
+
+.nav-container {
+  height: 70px;
+  font-size: 20px;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.nav-container .navbar ul li {
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}

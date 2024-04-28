@@ -1,21 +1,68 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 6: Arrays & Objects
+// Author: Manuel S Marshutz <mmarshut@ucsc.edu>
+// Date: 04.27.2024
 
-// Constants
+// Variables
+make = "Hyundai";
+model = "Veloster";
+color = "red";
+year = 2012;
 
-// Functions
+secondMake = "Acura";
+secondModel = "TLX";
+secondColor = "black";
+secondYear = "2018";
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+myTransport = [
+  "Hyundai (Rupert)",
+  "Acura (Ms. Keisha)",
+  "Uber",
+  "Bus",
+  "Legs",
+  "Piggy Back",
+];
+
+// Object(s)
+
+myMainRide = {
+  make: "Hyundai",
+  model: "Veloster",
+  color: "red",
+  year: 2012,
+  age: function () {
+    return 2024 - year;
+  },
+};
+
+mySecondRide = {
+  make: "Acura",
+  model: "TLX",
+  color: "black",
+  year: 2018,
+  age: function () {
+    return 2024 - secondYear;
+  },
+};
+
+// Function(s)
+
+function sound() {
+  console.log("Vroom Vroom...");
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+sound();
 
-// let's get this party started
-main();
+// Output
+
+document.writeln("The transportation I use: ", myTransport, "</br>");
+document.writeln("</br>");
+document.writeln(
+  "My main ride: <pre>",
+  JSON.stringify(myMainRide, null, "\t"),
+  "</pre>"
+);
+document.writeln(
+  "My second (girlfriend's) ride: <pre>",
+  JSON.stringify(mySecondRide, null, "\t"),
+  "</pre>"
+);
