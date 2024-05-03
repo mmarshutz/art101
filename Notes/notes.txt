@@ -88,3 +88,56 @@ var myMainRide = {
     age
 
 }
+
+Function
+
+WE START WITH THE WORD FUNCTION...
+
+function myFunction (parameter) {
+    some code here;
+    return value;
+}
+
+function multiply (x, y) {
+    return x * y;
+}
+
+"myFunction" & "multiply" are identifiers
+
+Parameters (optional): You can call this function by x = 3, y = 4. These parameters are palceholders for values that are going to pass it.
+
+You can define a function as a variable expresion
+
+var myFunction = function (parameter) {
+    some code here;
+    return value;
+}
+
+var product = multiply (2, 5);
+
+To call a functin we use the function name followed by parathenesis.
+
+function sayMyName() {
+    return "Wes";
+}
+
+document.write("My name is " + sayMyName());
+
+Always a good practice to have great comments! Especially for functions.
+
+/*
+function:
+Description: Returns the product of two numbers"
+Parameters:
+Returns:
+*/
+
+/** standard javascript comment... **/
+
+Scope is the context in which code is exectued. Scope determines what variables a line of code has access to.
+
+let, const (limits the scope of our variables)
+
+let marginShift = 100;
+
+NO MORE VAR...

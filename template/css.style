@@ -1,0 +1,41 @@
+/* page reset */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigation bar */
+
+.navbar ul {
+  display: flex;
+}
+
+.nav-container .navbar {
+  justify-content: space-between;
+}
+
+.nav-container {
+  height: 70px;
+  font-size: 20px;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.nav-container .navbar ul li {
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}

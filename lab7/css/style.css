@@ -1,0 +1,162 @@
+/* page reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+/* "logo?" */
+
+.top-container {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.top-container div {
+  padding: 0;
+  margin: 0;
+}
+
+.top-container h1 {
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.top-section {
+  flex: 1;
+}
+
+hr {
+  width: 80%;
+}
+/* navigation bar */
+
+.navbar ul {
+  display: flex;
+}
+
+.nav-container .navbar {
+  justify-content: space-between;
+}
+
+.nav-container {
+  height: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+.nav-container .navbar ul li {
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+/* CSS styling for javascript */
+
+.styled-name {
+  display: flex;
+  font-size: 75px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CSS output section, "hello my name is" */
+
+.output-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* top section of name tag */
+
+.output-section {
+  flex: 1;
+  width: 50%;
+  border-radius: 20px 20px 0 0;
+  padding: 10px;
+  margin: 50px;
+  background-color: rgb(225, 61, 61);
+}
+
+.output-1 {
+  flex: 1;
+  width: 50%;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+/* middle section (output) */
+
+.output-2 {
+  flex: 1;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+
+/* bottom section name tag */
+
+.output-3 {
+  flex: 1;
+  border-radius: 0 0 20px 20px;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 40px;
+  background-color: rgb(225, 61, 61);
+}
+
+/* three sections */
+
+.main-section {
+  display: flex;
+  padding: 75px;
+}
+
+.main-section p {
+  padding: 15px 40px;
+}
+
+.box-1 {
+  flex: 1;
+}
+
+.box-2 {
+  flex: 1;
+}
+
+.box-3 {
+  flex: 1;
+}
