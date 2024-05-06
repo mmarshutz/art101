@@ -1,0 +1,63 @@
+/* page reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title-container {
+  display: flex;
+  width: 100%;
+}
+
+.title {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.container div {
+  padding: 20px;
+  border: 1px #ccc solid;
+}
+
+.box-1 {
+  flex: 1;
+}
+
+.box-2 {
+  flex: 1;
+}
+
+.box-3 {
+  flex: 1;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.container-2 div {
+  padding: 10px;
+}
+
+.box-4 {
+  flex: 3;
+  order: 2;
+}
+
+.box-5 {
+  flex: 1;
+}
+
+.box-6 {
+  flex: 1;
+  order: 3;
+}
+#output {
+  font-size: x-large;
+  font-style: oblique;
+}
