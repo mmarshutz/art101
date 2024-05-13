@@ -65,7 +65,7 @@ value = ARRAY (composite data type)
 // The following are attributes: cat.name = ""; cat.color = ""; etc.
 
 Creating an Object (object definitions are surrouned by {}) all at once:
-
+key: 'VALUE'
 const cat = {
     name: 'Tiger',
     color: 'orange',
@@ -141,3 +141,75 @@ let, const (limits the scope of our variables)
 let marginShift = 100;
 
 NO MORE VAR...
+
+Lecture: JavaScript Libraries
+
+<script src="js/lab.js"></script>
+
+If I wanted to use another, link the src="" to the desired library.
+
+jquery.com (amazing library that makes programming much easier)
+
+include "dependencies" that the library depends on.
+
+Find a working demo and get it to work on your system and then modify it
+
+You can't use HTTPS with HTTP...
+Don't mix http:// with https:// (mixing secure and insecure content is a NONONO)
+
+jQuery (a JavaScript library)
+
+var slideShowElement = $("#carousel");
+
+Whenever we ue jQuery, we use a $ (function that takes a string or html eleemtn as an arguement and returns a jQuery object)
+
+ALWAYS TAKES/PASSES A STRING.
+
+Similar to CSS.
+
+$("#carousel") <Element by ID>
+$(".wrap") <Element by CLASS>
+
+DOM (Document Object Model)
+
+You can use Pure JavaScript to manipulate the DOM.
+
+document.geElementById('togglebutton)
+
+First Step: Find the element
+
+Second Step: jQuery (DOLLAR SIGN, $)
+
+$("p") - return a list of elements with all paragraph tags
+
+$(".my-class") - return a list of elements with class "my-class"
+
+Third Step: "Element" or "El" because they are DOM ELEMENTS.
+
+var bioEl = $("bio")
+
+var newButton = $("<button>"); - nowhere on the page, we will have to find an element to put it in, and then append it.
+
+var newButton = $("<button class='btn'>Press Me!</button>"); this shows they can have attributes, content, and multiple tags
+
+// find an element
+$("element")
+
+// set the test 
+
+// add class to our button
+
+
+Fourth Step: \
+
+// find the target element where we want to put it
+$("")
+
+//create a new element and assign it a variable
+
+// insert the new element at the bottom of the target element
+
+
+ALL IN ONE STEP:
+
+$("#bio").append("<div>");

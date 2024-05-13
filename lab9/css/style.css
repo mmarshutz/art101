@@ -1,0 +1,112 @@
+/* page reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #5cab7d;
+  font-family: sans-serif;
+}
+
+.special div {
+  background-color: lavender;
+  color: pink;
+  font-weight: bold;
+}
+
+.head-section {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  background-color: white;
+}
+
+.title {
+  flex: 1;
+}
+
+.title h1 {
+  padding-top: 10px;
+  margin: 5px;
+}
+
+.subtitle {
+  flex: 1;
+}
+
+.subtitle h2 {
+  padding: 0;
+  margin: 0;
+}
+
+/* containers */
+
+#flex-container {
+  display: flex;
+  height: 200px;
+}
+
+#flex-container p {
+  padding: 20px;
+}
+
+/* boxes */
+
+.column-left {
+  background-color: #5cab7d;
+  flex: 1;
+}
+
+#box-1 {
+  flex: 4.5;
+}
+
+#box-2 {
+  flex: 6;
+}
+
+#box-3 {
+  flex: 6;
+}
+
+#box-4 {
+  flex: 4.5;
+}
+
+#box-5 {
+  flex: 4.5;
+}
+
+#box-6 {
+  flex: 6;
+}
+.column-right {
+  flex: 1;
+}
+
+.button-challenge {
+  padding: 20px;
+  font-weight: bold;
+  margin-right: 8%;
+  color: white;
+  border: none;
+  background-color: #4adbc8;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-challenge:hover {
+  background-color: #3f4b3b;
+}
+
+.woops {
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: red;
+  cursor: pointer;
+}
+
+#destroy {
+  padding: 10px;
+}

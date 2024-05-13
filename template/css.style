@@ -28,14 +28,20 @@ body {
   width: 80%;
   margin: auto;
 }
-.nav-container .navbar ul li {
-  padding: 15px;
-  font-family: sans-serif;
-  font-weight: bold;
+
+.navbar ul {
   text-decoration: none;
   list-style-type: none;
 }
+
 .navbar a {
   color: black;
   text-decoration: none;
+}
+
+.special {
+  background-color: lavender;
+  border: dotted 50px red;
+  color: pink;
+  font-weight: bold;
 }
