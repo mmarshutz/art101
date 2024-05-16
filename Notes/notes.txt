@@ -200,7 +200,7 @@ $("element")
 // add class to our button
 
 
-Fourth Step: \
+Fourth Step:
 
 // find the target element where we want to put it
 $("")
@@ -213,3 +213,9 @@ $("")
 ALL IN ONE STEP:
 
 $("#bio").append("<div>");
+
+$(document).ready(function(){
+    // script
+});
+
+^^^ This tells HTML that everything should be ready before it loads.

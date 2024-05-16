@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/lab.js" defer></script>
+    <title>Lab 10: JavaScript for the Web</title>
+  </head>
+  <body>
+    <div id="title">
+      <div id="title-section">
+        <h1>Lab 10: JavaScript for the Web</h1>
+        <div id="name-section">
+          <h3>Manuel S Marshutz</h3>
+        </div>
+      </div>
+    </div>
+    <div id="response">
+      <div class="section-1">
+        <h1>Challenges</h1>
+        <p>
+          I had many issues with resizing certain portions of my
+          nth-child(odd/even) and my buttons which whenever the site was
+          rescaled, it'd breach boundaries and look messed up. Though with a bit
+          of trial and error, I managed to figure out why this was happening
+          (width styling interfering with others).
+        </p>
+      </div>
+      <div class="section-1">
+        <h1>Problems</h1>
+        <p>
+          Similar to what was detailed in my "Challenges" portion, rescaling
+          seemed to be a consistant issue that popped up. I think this is
+          usually an issue for me when my CSS gets very long and I forget what I
+          added or what's doing what. A solution I usually do is add a thin
+          border to see what everything is doing and how boundaries are being
+          set.
+        </p>
+      </div>
+      <div class="section-1">
+        <h1>Results</h1>
+        <p>
+          Below you'll see a functioning "chat" box that completes both task X
+          bonus'. Firstly, the "iMessage" buttons generates random boxes with
+          text sampled from a function in JavaScript. Secondly, the "+" button
+          prompts a window messagee to add a text message to the output. I made
+          it a window prompt because I did not want to rearrange the iPhone
+          theme I was trying to maintain.
+        </p>
+      </div>
+    </div>
+    <div class="convo-container">
+      <div id="output">
+        <div id="convo-output">
+          <div id="output-2"></div>
+        </div>
+        <div id="chat-section">
+          <button class="input">+</button>
+          <button id="make-convo">iMessage</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

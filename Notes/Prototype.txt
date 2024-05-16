@@ -1,0 +1,16 @@
+Technical Summary:
+    Source(s); https://www.educative.io/answers/how-to-enlarge-an-image-on-hover-in-html (contains instruction to implement hover)
+- Using an <img> tag, we can use a graphic to portray the "humans" and implement a :hover pseudo-class
+- After clicking one of the "human" icons, unhide different sections that reveal infographics regarding AI topic.
+- Similarly, we can have an <img> tag source a robotic design
+- incooperate and action with .click() method for robot's reaction
+- have some sort of JavaScript that times comments that spew from the robot (misinformation facts)
+
+Technical Summary:
+    - Input map (possibly interactive) as background
+    - Add images for each icon needed to pinpoint areas that are affected
+    - create arrays within a database entailing name, location (x, y), description, icon, etc.
+
+Technical Summary:
+- Incooperate .click() with each image/object (politicians) that trigger infographics
+- each infographic will prompt various information that links/traces the politician's policies/funding. 

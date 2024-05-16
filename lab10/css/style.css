@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#title-section {
+  flex: 1;
+}
+
+#name-section {
+  flex: 1;
+  padding: 1px;
+  color: white;
+  background-color: #218aff;
+  border-radius: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#response {
+  display: flex;
+}
+
+.section-1 {
+  flex: 1;
+}
+
+.section-1 h1 {
+  text-align: center;
+}
+
+.section-1 p {
+  padding: 15px;
+}
+
+.convo-container {
+  display: flex;
+  margin: 1%;
+  margin-bottom: 5%;
+  padding: 1px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#output {
+  flex: 1;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  border: solid 1px;
+  min-height: 700px;
+  width: 40%;
+}
+
+#convo-output {
+  flex: 1;
+  min-height: 700px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+/* scroll bar (chrome, edge) */
+
+#convo-output::-webkit-scrollbar {
+  padding: 0;
+  margin: 0;
+  width: 3px;
+}
+
+#convo-output::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: #9a9a9a;
+}
+
+#convo-output::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+.text p {
+  display: inline-block;
+  max-width: 60%;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+.text:nth-child(odd) {
+  text-align: left;
+}
+
+.text:nth-child(odd) p {
+  float: right;
+  margin-left: 30%;
+  background-color: #218aff;
+  color: white;
+}
+
+.text:nth-child(even) p {
+  margin-right: 30%;
+  background-color: #d8d8d8;
+}
+
+#chat-section {
+  display: flex;
+}
+
+.input {
+  flex: 0.5;
+  text-align: center;
+  padding: 10px 10px;
+  margin: 15px;
+  color: gray;
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+  background-color: #d8d8d8;
+}
+
+#make-convo {
+  flex: 9;
+  text-align: left;
+  padding: 10px 10px;
+  margin: 15px;
+  color: #9a9a9a;
+  border: 1px solid #9a9a9a;
+  border-radius: 20px;
+  background-color: white;
+  width: 100%;
+}
