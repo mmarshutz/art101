@@ -1,79 +1,131 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-<!--Template created by Manuel S Marshutz & inspired by Wes Modes-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/site.js" defer></script>
+    <!--Template created by Manuel S Marshutz & inspired by Wes Modes-->
     <title>ART 101 - Marshutz, Manuel</title>
-</head>
-<!--Navigation bar inspired by Medium article (https://charlesfreeborn.medium.com/how-to-build-a-responsive-nav-using-css-flexbox-3511cd936af9) -->
-<div class="container">
-	<div class="navbar">
-		<nav>
-       		 <ul>
-           		 <li><a href="index.html">Home</a></li>
-           		 <li><a href="slot.html">About</a></li>
-				 <li><a href="slot2.html">Cats</a></li>
-				 <li><a href="labs.html">Labs</a></li>
-       		 </ul>
-		</nav>
-	</div>
-</div>
-<body>
+  </head>
+  <!--Navigation bar inspired by Medium article (https://charlesfreeborn.medium.com/how-to-build-a-responsive-nav-using-css-flexbox-3511cd936af9) -->
+  <div class="container">
+    <div class="navbar">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="slot.html">About</a></li>
+          <li><a href="slot2.html">Cats</a></li>
+          <li><a href="labs.html">Labs</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <body>
     <main id="content">
-        <div class="flex-container">
-			<img src="img/utah.jpeg" alt="marshutz_portrait" class="portrait" style="width: 500px;">
-                 <section>
-                     <div class="minor-section">
-                        <p>
-						   <h1>Manuel S Marshutz</h1>
-                           <i>Student</i></br>
-                            BA, Arts & Technology & Information Management</br>
-                            University of Santa Cruz</br>
-						<hr>
-						</p>
-						<!--information class will need to be adjusted based on content size-->
-						<p class="information">
-                            <b>Manuel S Marshutz</b> is currently enrolled at University of Santa Cruz as an Art major and considering
-                            a double major or minor in Technology & Information Management. In regards to a career, he's employed by Geek Squad as an
-                            Advanced Repair Agent repairing software and/or hardware for various machines. The career interest stems from a deep
-							passion for electronics and creative problem solving that make Information Technology or design an ideal pursuit. 
-                        </p>
-                     </div>
-				 </section>
-		</div>
+      <div class="flex-container">
+        <!--Slideshow container (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto)-->
+        <div id="slideshow-section">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img
+                src="img/utah.jpeg"
+                alt="marshutz_portrait"
+                style="width: 100%"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                src="img/slideshow/bikes.jpg"
+                alt="Alaska Trip"
+                style="width: 100%"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                src="img/slideshow/waterfall.jpg"
+                alt="Tahoe"
+                style="width: 100%"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                src="img/slideshow/graduation.jpg"
+                alt="Highschool Graduation"
+                style="width: 100%"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                src="img/slideshow/portrait.jpg"
+                alt="Santa Cruz Portrait"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+        </div>
+        <section>
+          <div class="minor-section">
+            <h1>Manuel S Marshutz</h1>
+            <i>Student</i>
+            BA, Arts & Technology & Information Management University of Santa
+            Cruz
+            <hr />
+            <!--information class will need to be adjusted based on content size-->
+            <p class="information">
+              <b>Manuel S Marshutz</b> is currently enrolled at University of
+              Santa Cruz as an Art major and considering a double major or minor
+              in Technology & Information Management. In regards to a career,
+              he's employed by Geek Squad as an Advanced Repair Agent repairing
+              software and/or hardware for various machines. The career interest
+              stems from a deep passion for electronics and creative problem
+              solving that make Information Technology or design an ideal
+              pursuit.
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
-	<article>
-		<div class="subject-container">
-			<div class="subject-section">
-				<p>
-					Hobbies.
-				</p>
-			</div>
-		</div>
-	</article>
-	<article>
-		<div class="row">
-			<div class="column">
-				<img src="img/glacier.jpeg" alt="Alaska Glacier" style="width: 100%;">
-			</div>
-			<div class="column">
-				<img src="img/beaver.jpeg" alt="Beaver Dam Alaska" style="width: 100%;">
-			</div>
-			<div class="column">
-				<img src="img/wagon.jpeg" alt="Wagon Alaska" style="width: 100%;">
-			</div>
-		</div>
-	</article>
-	<article>
-		<div class="flex-container">
-			<div class="minor-section">
-				<p>
-					In Progress...
-				</p>
-			</div>
-		</div>
-	</article>
-</body>
+    <article>
+      <div class="subject-container">
+        <div class="subject-section">
+          <p>Hobbies.</p>
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="row">
+        <div class="column">
+          <img
+            src="img/glacier.jpeg"
+            alt="Alaska Glacier"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="img/beaver.jpeg"
+            alt="Beaver Dam Alaska"
+            style="width: 100%"
+          />
+        </div>
+        <div class="column">
+          <img src="img/wagon.jpeg" alt="Wagon Alaska" style="width: 100%" />
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="flex-container">
+        <div class="minor-section">
+          <p>In Progress...</p>
+        </div>
+      </div>
+    </article>
+  </body>
 </html>

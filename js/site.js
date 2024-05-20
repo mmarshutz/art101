@@ -2,20 +2,23 @@
 // Author: Your Name
 // Date:
 
-// Constants
+// Automatic slideshow (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto)
 
-// Functions
+$(document).ready(function () {
+  let slideIndex = 0;
+  showSlides();
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+  }
+});

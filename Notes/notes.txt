@@ -219,3 +219,52 @@ $(document).ready(function(){
 });
 
 ^^^ This tells HTML that everything should be ready before it loads.
+
+FORMS:
+
+var inputValue = $("#my-input").val();
+
+SETUP GITHUB W/ TEAM
+
+<!-- CONDITIONALS -->
+
+if conditional
+else conditional
+else if conditional
+
+<!-- EXPRESSIONS -->
+    Used to test something, TRUE or FALSE.
+EX. "is x less than 1?"
+
+== test equality, x == "hello"
+
+myVar >= 4096
+
+myVar =left-side of expression
+>= conditional operator
+4090 = right-side of expression
+
+Examples:
+x < 1
+y.length > 64
+10 == 650/65
+How to check if this is true?
+42 == "42" - TRUE
+42 === "42" - FALSE (Strict inequality wants to match perfectly)
+
+if (workHours > 12) {
+    greeting = "Bad Day";
+}
+
+if = ALWAYS BEGIN
+(workHours > 12) = (expression)
+greeting = "Bad Day"; == Code...
+
+if(workHours > 12) {
+    greeting = "Bad Day";
+} else {
+    greeting = "Good Day";
+}
+
+% = Modulate
+
