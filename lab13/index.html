@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/lab.js" defer></script>
+    <title>Lab 13: Loops</title>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Lab 13: Loops!</h1>
+      <h3 class="subtitle" style="color: gray">Manuel S Marshutz</h3>
+    </div>
+    <div id="container-main">
+      <div class="section-main"><h1>Challenges</h1></div>
+      <div class="section-main">
+        <p>
+          I was mostly pondering why or how I could use this one my own website
+          but I may be thinking too much within the box. Nonetheless, this lab
+          (like many) has had its moments. At first, I nothing was populating
+          when I attempted to run the script but then I found out it was because
+          I added a closing bracket to the id="max" which took me forever to
+          find and haulted a lot of progress.
+        </p>
+      </div>
+      <div class="section-main"><h1>Problems</h1></div>
+      <div class="section-main">
+        <p>
+          Not too many problems aside from the one detailed above but some of
+          the Task X bonus I didn't really understand. One of which was to
+          create a form that let the user change the max number of outputs but I
+          didn't see how that'd be challenge which got me thinking whether or
+          not I was doing it wrong/right. Anyways, I moved on and finished what
+          I could.
+        </p>
+      </div>
+      <div class="section-main"><h1>Results</h1></div>
+      <div class="section-main">
+        <p>
+          As always, the results are presented below! I made some placeholders
+          to provide the user a guide on how this code works but it works with
+          any word and any amount of factors (up to 23).
+        </p>
+      </div>
+      <div id="container-output">
+        <div>
+          Output Number (MAX: 1000):
+          <input type="number" min="0" max="1000" id="max" /><br />
+        </div>
+        <div>
+          <table>
+            <tbody>
+              <tr>
+                <th>Factor</th>
+                <th>Text</th>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    placeholder="3"
+                    type="number"
+                    min="0"
+                    max="23"
+                    id="num0"
+                  />
+                </td>
+                <td><input placeholder="Fizz" type="text" id="text0" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    placeholder="4"
+                    type="number"
+                    min="0"
+                    max="23"
+                    id="num1"
+                  />
+                </td>
+                <td><input placeholder="Buzz" type="text" id="text1" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    placeholder="5"
+                    type="number"
+                    min="0"
+                    max="23"
+                    id="num2"
+                  />
+                </td>
+                <td><input placeholder="Boom" type="text" id="text2" /></td>
+              </tr>
+              <tr>
+                <td>
+                  <input
+                    placeholder="7"
+                    type="number"
+                    min="0"
+                    max="23"
+                    id="num3"
+                  />
+                </td>
+                <td><input placeholder="Bang" type="text" id="text3" /></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button id="submit">Run</button>
+      </div>
+      <center><h3>OUTPUT:</h3></center>
+      <div id="output"></div>
+    </div>
+  </body>
+</html>

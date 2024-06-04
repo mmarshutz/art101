@@ -1,0 +1,103 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.subtitle {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
+#container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.section-main {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.section-main p {
+  text-align: left;
+  max-width: 500px;
+}
+
+#container-output {
+  display: flex;
+  margin: 50px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+}
+input[type="text"] {
+  width: 100px;
+}
+
+input#max {
+  width: 60px;
+}
+
+::placeholder {
+  color: gray;
+  opacity: 0.5; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: gray;
+  opacity: 0.5;
+}
+
+table {
+  padding: 20px;
+}
+
+input,
+button {
+  font-size: 90%;
+}
+
+button {
+  width: 75px;
+}
+
+div#input,
+div#output {
+  padding: 20px;
+}
+
+/* output in columns (source: wmodes) */
+#output.cols {
+  -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+  -moz-column-width: 200px; /* Firefox */
+  column-width: 200px;
+}
