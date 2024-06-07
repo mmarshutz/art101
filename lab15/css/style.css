@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* container(s) */
+
+#container-title {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container-title h1,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+#container-flex {
+  display: flex;
+  color: white;
+  text-align: center;
+  background-color: darkgreen;
+  border-bottom: 1px black solid;
+}
+
+#container-flex-2 {
+  display: flex;
+  padding-bottom: 75px;
+}
+
+#container-subject {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: darkgreen;
+}
+
+#container-output {
+  display: flex;
+  flex-direction: column;
+}
+
+/* sections */
+
+.section-title {
+  flex: 1;
+}
+
+.section-flex {
+  flex: 1;
+  padding: 10px;
+}
+
+.section-flex p {
+  padding: 20px;
+}
+
+.section-subject {
+  flex: 1;
+  text-align: center;
+}
+
+.section-fill {
+  flex: 1;
+  padding: 1px;
+  color: darkcyan;
+}
+
+/* misc items */
+
+#output {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#my-button {
+  margin: 25px;
+  padding: 10px;
+  width: 100px;
+}

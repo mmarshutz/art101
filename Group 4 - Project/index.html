@@ -13,6 +13,8 @@
     <!--Combine all JavaScript?-->
     <script type="text/javascript" src="./js/nodes.js"></script>
     <script type="text/javascript" src="./js/index.js" defer></script>
+    <script type="text/javascript" src="./js/bottomsection.js" defer></script>
+    <!--Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +23,8 @@
     />
     <title>A.I. Tech</title>
   </head>
-  <nav id="nav-container">
+  <!--Title on top-->
+  <nav id="container-title">
     <div id="title">
       <h1 style="display: inline-block">Group 4:</h1>
       <p style="display: inline-block">AI Technology</p>
@@ -29,14 +32,20 @@
   </nav>
   <body>
     <canvas id="nodes"></canvas>
+    <!--Pop up element sections, can be rearranged if the area is not where we want the content to be-->
+    <div id="container-popup">
+      <div class="popup" id="popup">
+        <img src="img/infographic_1.jpg" style="width: 30%" />
+      </div>
+    </div>
     <div id="temp"></div>
+
     <!--People Section-->
     <div id="flex-container">
-      <div class="box-1 double">
+      <div id="element" class="box-1 double hover-element">
         <button class="head"></button>
         <button id="person-1" class="enlarge"></button>
       </div>
-      <div class="overlay"></div>
       <div class="box-1 double">
         <button class="head"></button>
         <button id="person-2" class="enlarge"></button>

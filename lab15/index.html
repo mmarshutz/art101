@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/lab.js" defer></script>
+    <title>Lab 15: AJAX</title>
+  </head>
+  <body>
+    <div id="container-title">
+      <div class="section-title"><h1>Lab 15: Ajax</h1></div>
+      <div class="section-title"><h3>Manuel S Marshutz</h3></div>
+    </div>
+    <div id="container-flex">
+      <div class="section-flex"><h1>Challenges</h1></div>
+      <div class="section-flex"><h1>Problems</h1></div>
+      <div class="section-flex"><h1>Results</h1></div>
+    </div>
+    <div id="container-flex-2">
+      <div class="section-flex" alt="challenges content">
+        <p>
+          At first, I wanted to use the Pokemon API but I could not, for the
+          life of me, find a way to just source the pokemon name from the API. I
+          found a way to use the fetch method but that typically required I
+          input every pokemon or create an input field for the user to find a
+          specfic Pokemon which is not what I wanted... Instead, I found a dog
+          API that generated a random photo of someone's dog.
+        </p>
+      </div>
+      <div class="section-flex" alt="problems content">
+        <p>
+          I found that using the "recipe" that was provided for this lab to be
+          more difficult to use than how we solved this issue in class. Which
+          was to make the ajax an object like we usually do with the console.
+          Doing this, made it pretty straightfoward than trying to figure out
+          where data, URL, etc, is supposed to go.
+        </p>
+      </div>
+      <div class="section-flex" alt="results content">
+        <p>
+          Low and behold, the button right below this content shall reveal the
+          most adorable, cared for, and extremely happy dogs you've ever seen.
+          In fact, you could visit this API and submit a photo of your dog if
+          you'd like to see it here one day. You might have to click it a few
+          thousand times but you MIGHT just see it!
+        </p>
+      </div>
+    </div>
+    <div id="container-subject">
+      <div class="section-subject"><h1>Output.</h1></div>
+      <div class="section-fill"></div>
+      <div class="section-fill"></div>
+    </div>
+    <center><button id="my-button">Click for Dog Picture</button></center>
+    <div id="container-output">
+      <div id="output"></div>
+    </div>
+  </body>
+</html>
